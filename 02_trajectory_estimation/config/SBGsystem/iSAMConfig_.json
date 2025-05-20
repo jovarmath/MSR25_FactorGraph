@@ -1,0 +1,37 @@
+{
+    "MeasurementUpdates": {
+        "useGPS": true,
+        "useGPSheading": false,
+        "useTS": false,
+        "useTSheading": false
+    },
+    "Initialsig": {
+        "position": {
+            "x": 0.1,
+            "y": 0.1,
+            "z": 0.1
+        },
+        "velocity": {
+            "x": 0.02,
+            "y": 0.02,
+            "z": 0.02
+        },
+        "orientation": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        }
+    },
+    "InitialTime": 10,
+    "PreintegrationSig": {
+        "x": 0.011525434466888276,
+        "y": 0.011525434466888276,
+        "z": 0.011525434466888276
+    },
+    "iSAM": {
+        "relinearizeSkip": 20,
+        "relinearizeThreshold": 0.2,
+        "poserate": 0.01,
+        "updaterate": 10
+    }
+}

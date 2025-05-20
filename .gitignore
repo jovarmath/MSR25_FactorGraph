@@ -1,0 +1,7 @@
+# Example entries for .gitignore
+*.pyc
+*.o
+*.a
+build/
+data/
+
